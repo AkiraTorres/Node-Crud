@@ -3,6 +3,7 @@ import bodyParser from "body-parser";
 import { Sequelize } from "sequelize";
 import dotenv from "dotenv";
 
+import user from "./routes/userRoutes.js";
 
 dotenv.config();
 
